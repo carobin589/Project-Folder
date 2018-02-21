@@ -21,15 +21,42 @@
     <h2>About Glasgow</h2>
     <p>Glasgow is the largest city in Scotland and the fourth largest city in the United Kingdom. A centre of industry and shipbuilding, it became the 'second city' of the British Empire during the Victorian and Edwardian period.</p>
   </div>
-
-  <h3>What is your favourite places in Glasgow?</h3>
-  <form>
-    What's your name?<br>
-    <input type="text" name="name"><br> What's your email?<br>
-    <input type="text" name="email"><br> What's your favourite place in Glasgow?<br>
-    <input type="text" name="place"><br>
-    <input type="submit" value="Submit"><br>
-  </form>
+  <div class="well">
+    <h3>What is your favourite place or thing to do in Glasgow?</h3>
+    <form>
+      <div class="form-group">
+        <label for="name">What's your name?</label>
+        <input type="text" class="form-control" id="name" placeholder="Type your name">
+      </div>
+      <div class="form-group">
+        <label for="email"> What's your email? </label>
+        <input type="email" class="form-control" id="email" placeholder="example@me.com">
+      </div>
+      <div class="form-group">
+        <label for="place">What is your favourite place in Glasgow?</label>
+        <input type="text" class="form-control" id="place" placeholder="Where do you like to go?">
+      </div>
+      <div class="form-group">
+        <label for="sel1">What kind of place is it?</label>
+        <select class="form-control" id="sel1">
+        <option>A place to eat</option>
+        <option>A place to drink</option>
+        <option>A gallery or museum</option>
+        <option>A park or a walk</option>
+        <option>A place to get coffee</option>
+        <option>A place to stay</option>
+        <option>An event</option>
+        <option>A place for a great night out</option>
+        <option>Something else!</option>
+      </select>
+      </div>
+      <div class="form-group">
+        <label for="comment">Tell us some more about it:</label>
+        <textarea class="form-control" rows="5" id="comment" placeholder="You could tell us an address, what kind of food it serves, your best memories, anything that takes your fancy!"></textarea>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
 </body>
 
 </html>
