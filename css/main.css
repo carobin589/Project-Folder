@@ -23,6 +23,9 @@ body, html {
     transform: translate(-50%, -50%);
     color: white;
     background-color: #2d2d30;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
 }
 .areas {
       background: #2d2d30;
