@@ -113,6 +113,11 @@ footer a:hover {
     color: #777;
     text-decoration: none;
 }
+.social {
+min-height: 100%;
+padding-top: 50px;
+text-align: center;
+}
 /* this is css just for thing on the about page */
 .hero-image-2 {
       background-image: url("../photos/view of the River Clyde.jpg");
@@ -159,4 +164,18 @@ form {
   margin: 0 auto 0 auto;
   width: 100%;
   height: 400px;
+}
+.btn-ticket {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn-ticket:hover, .btn-ticket:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
 }
