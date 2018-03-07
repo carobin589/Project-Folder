@@ -118,17 +118,18 @@
       <dl>Scotland's capital city is only a 50 minute train ride from Glasgow Queen Street Station into Edinburgh Waverley Station.</dl>
     </ul>
   </div>
+<h2> Have an explore!</h2>
   <div id="googlemap">
-    <h2> Have an explore!</h2>
   </div>
   <script>
   function myMap() {
-      var mapOptions = {
-          center: new google.maps.LatLng(55.86, 4.25),
+      var mapProp = {
+          center: new google.maps.LatLng(55.8642, 4.2518),
           zoom: 5,
           mapTypeId: google.maps.MapTypeId.HYBRID
       }
-  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+  var map = new
+  google.maps.Map(document.getElementById("googlemap"), mapProp);
   }
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
