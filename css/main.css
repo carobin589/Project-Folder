@@ -1,8 +1,15 @@
 body {
   text-align: center;
-  color: blue;
 }
 
 .Drink {
+  text-align: left;
+}
+.container {
+    padding: 80px 120px;
+}
+
+/* this is css just for thing on the about page */
+form {
   text-align: left;
 }
