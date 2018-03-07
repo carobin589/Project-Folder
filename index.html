@@ -5,7 +5,7 @@
   <title>Welcome to Glasgow!</title>
   <link href='css/main.css' rel='stylesheet'>
   <link href='css/bootstrap.css' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Rozha+One">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Francois+One">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -118,5 +118,17 @@
       <dl>Scotland's capital city is only a 50 minute train ride from Glasgow Queen Street Station into Edinburgh Waverley Station.</dl>
     </ul>
   </div>
-
+  <div id="map">
+  </div>
+  <script>
+  function myMap() {
+      var mapOptions = {
+          center: new google.maps.LatLng(51.5, -0.12),
+          zoom: 10,
+          mapTypeId: google.maps.MapTypeId.HYBRID
+      }
+  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+  }
+  </script>
+  </body>
 </html>
