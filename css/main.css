@@ -29,6 +29,10 @@ ol {
   text-align: left;
 }
 
+ul {
+  text-align: left;
+}
+
 .food-image {
   background-image: url("../photos/resturant.jpg");
   height: 50%;
@@ -89,7 +93,14 @@ ol {
 form {
   text-align: center;
 }
-
+.about-image {
+  background-image: url("../photos/Glasgow.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 .bg-1 {
     background: #2d2d30;
     color: #bdbdbd;
