@@ -27,6 +27,14 @@ body, html {
 ol {
   text-align: left;
 }
+.drink-image {
+      background-image: url("../photos/barrowlands.jpg");
+      height: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+}
 
 .container {
     position: relative;
