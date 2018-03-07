@@ -1,9 +1,16 @@
 body {
   text-align: center;
 }
+.areas {
+      background: #2d2d30;
+      color: #bdbdbd;
+}
 
 .Drink {
   text-align: left;
+  }
+.Drink h3 {
+  background-image: url("image/barrowlands.jpg");
 }
 .container {
     padding: 80px 120px;
@@ -19,6 +26,17 @@ body {
     color: #555;
 }
 /* this is css just for thing on the about page */
+.title1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+  }
 form {
-  text-align: left;
+  text-align: center;
 }
+
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+}
+.bg-1 h3 {color: #fff;}
+.bg-1 p {font-style: italic;}
