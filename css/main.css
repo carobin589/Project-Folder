@@ -23,6 +23,7 @@ body, html {
 .areas {
       background: #2d2d30;
       color: #bdbdbd;
+      padding: 12px;
 }
 ol {
   text-align: left;
@@ -95,3 +96,7 @@ form {
 }
 .bg-1 h3 {color: #fff;}
 .bg-1 p {font-style: italic;}
+.bg-1 ul {
+  text-align: center;
+  color:MediumSeaGreen;
+}
