@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Bahiana');
+h1 {
+font-family: Bahiana, serif;
+}
 
 body {
   text-align: center;
-  font-family: 'Bahiana', serif;
 }
 body, html {
     height: 100%;
