@@ -134,8 +134,10 @@ form {
   text-align: center;
   color:MediumSeaGreen;
 }
+
 #map {
   text-align: center;
-  width: 300px;
+  margin: 0 auto 0 auto;
+  width: 600px;
   height: 300px;
 }
