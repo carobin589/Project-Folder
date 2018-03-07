@@ -128,14 +128,22 @@
   </div>
 <h3> Have an explore!</h3>
   <div id="map"></div>
+
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9205.461951819916!2d-1.5819362629937426!3d54.77354204264697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e8761c6e51a15%3A0xed2897f8e29acfcb!2sDurham+Cathedral!5e0!3m2!1sen!2suk!4v1512473764291" width="400" height="300" frameborder="0" style="border:0" allowfullscreen="">
+        </iframe>
+
   <script>
-function myMap() {
-var myCenter = new google.maps.LatLng(41.878114, -87.629798);
-var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-var marker = new google.maps.Marker({position:myCenter});
-marker.setMap(map);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+  var map;
+  function initmap() {
+    map = new google.maps.map (document.getElementById("googlemap"), {
+      center: LatLng(55.8642, 4.2518),
+      zoom: 5,
+      mapTypeId: google.maps.MapTypeId.HYBRID
+    });
+  }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8HfFs3Tq0bWAClGqUbzR9Nzafj_r3Gn4&callback=initmap"
+  async defer></script>
+  </body>
 </html>
