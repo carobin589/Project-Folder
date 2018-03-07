@@ -8,7 +8,16 @@ body {
 .container {
     padding: 80px 120px;
 }
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
 
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
 /* this is css just for thing on the about page */
 form {
   text-align: left;
