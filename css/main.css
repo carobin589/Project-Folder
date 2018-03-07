@@ -1,6 +1,8 @@
+* {
+font-family: 'Tangerine', serif;
+}
 body {
   text-align: center;
-  font-family: 'Bahiana';
 }
 body, html {
     height: 100%;
