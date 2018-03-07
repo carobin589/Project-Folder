@@ -114,7 +114,8 @@ form {
   text-align: center;
   color:MediumSeaGreen;
 }
-#map{
+#googlemap{
+  text-align: center;
   width: 300px;
   height: 300px;
 }
