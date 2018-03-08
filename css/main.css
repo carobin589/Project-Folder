@@ -113,7 +113,24 @@ footer a:hover {
     color: #777;
     text-decoration: none;
 }
-/* this is css just for thing on the about page */
+.social {
+min-height: 100%;
+padding-top: 50px;
+text-align: center;
+}
+img.rounded-circle {
+
+    padding: 3px; /* Some padding */
+    width: 150px; /* Set a small width */
+    height: 150px;
+}
+
+img.rounded-circle:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+/* this is css just for things on the about page */
 .hero-image-2 {
       background-image: url("../photos/view of the River Clyde.jpg");
       height: 50%;
@@ -151,7 +168,7 @@ form {
 .bg-1 p {font-style: italic;}
 .bg-1 ul {
   text-align: center;
-  color:MediumSeaGreen;
+  color: black;
 }
 
 .map {
@@ -159,4 +176,18 @@ form {
   margin: 0 auto 0 auto;
   width: 100%;
   height: 400px;
+}
+.btn-ticket {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn-ticket:hover, .btn-ticket:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
 }
