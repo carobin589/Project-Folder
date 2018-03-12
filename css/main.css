@@ -10,6 +10,7 @@ body {
 body, html {
     height: 100%;
 }
+
 .hero-image {
     background-image: url("../photos/univeristy.jpg");
     height: 50%;
@@ -40,27 +41,12 @@ p {
   font-size: 16px;
 }
 
-ol {
-  text-align: left;
-  font-size: 16px;
-}
-
-ul {
-  text-align: left;
-  font-size: 16px;
-}
-
 .container {
     width: 100%;
     position: absolute;
     text-align: center;
-
 }
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-  }
+
 }
 footer {
     background-color: #2d2d30;
@@ -113,7 +99,7 @@ img.rounded-circle:hover {
 {
 	background: white;
 	display: block;
-	float: left;
+  float: left;
 	margin: 0 15px 30px;
 	padding: 10px 10px 25px;
 	text-align: center;
@@ -138,10 +124,23 @@ img.rounded-circle:hover {
 
 .polaroid-images img {
 	display: block;
-	width: inherit;
+  height: 300px;
+	width: 300px;
+  overflow: hidden;
 }
 
-
+.polaroid-images a:hover{
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+        transform: scale(1.2);
+	z-index:10;
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+        box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}
 /* this is css just for things on the about page */
 .hero-image-2 {
       background-image: url("../photos/view of the River Clyde.jpg");
