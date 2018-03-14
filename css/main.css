@@ -1,6 +1,9 @@
 * {
 font-family: 'Francois One', serif;
 }
+.explore {
+font-family: 'Francois One', serif;
+}
 body {
   text-align: center;
 }
@@ -64,7 +67,7 @@ ul {
       position: relative;
 }
 .togo-image {
-  background-image: url("../photos/goma.jpg");
+  background-image: url("../photos/kelpies.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
