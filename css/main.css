@@ -138,6 +138,7 @@ img.rounded-circle:hover {
 	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
         box-shadow: 0 10px 20px rgba(0,0,0,.7);
 }
+
 /* this is css just for things on the about page */
 .hero-image-2 {
       background-image: url("../photos/view of the River Clyde.jpg");
