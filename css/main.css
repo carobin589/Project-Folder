@@ -130,9 +130,6 @@ img.rounded-circle:hover {
 }
 
 .polaroid-images a:hover{
-	-webkit-transform: rotate(0deg);
-	-moz-transform: rotate(0deg);
-        transform: rotate(0deg);
 	-webkit-transform: scale(1.2);
 	-moz-transform: scale(1.2);
         transform: scale(1.2);
