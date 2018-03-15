@@ -33,55 +33,12 @@ body, html {
 .areas {
       background: #2d2d30;
       color: #bdbdbd;
-      padding: 12px;
 }
 
 p {
   font-size: 16px;
 }
 
-ol {
-  text-align: left;
-  font-size: 16px;
-}
-
-ul {
-  text-align: left;
-  font-size: 16px;
-}
-
-.food-image {
-  background-image: url("../photos/resturant.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.drink-image {
-      background-image: url("../photos/barrowlands.jpg");
-      height: 50%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-}
-.togo-image {
-  background-image: url("../photos/kelpies.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.about-image {
-  background-image: url("../photos/edinburgh.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
 .container {
     position: relative;
     text-align: center;
