@@ -61,6 +61,13 @@ ul {
     left: 16px;
 }
 
+.thumbnail img {
+	display: block;
+  height: 400px;
+	width: 400px;
+  overflow: hidden;
+}
+
 .thumbnail {
   background: white;
   display: block;
@@ -68,13 +75,6 @@ ul {
   margin: 0 15px 30px;
   padding: 10px 10px 25px;
   text-align: center;
-}
-
-.thumbnail img {
-	display: block;
-  height: 400px;
-	width: 400px;
-  overflow: hidden;
 }
 
 .thumbnail p {
